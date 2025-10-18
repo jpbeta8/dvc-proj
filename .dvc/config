@@ -1,0 +1,9 @@
+[core]
+    remote = storage
+['remote "fuentelocal"']
+    url = /tmp/dvcstore
+['remote "aws-remote"']
+    url = s3://jpabetadvcstore
+['remote "storage"']
+    url = s3://jpabetadvcstore
+    region = us-east-1
